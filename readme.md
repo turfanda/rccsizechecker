@@ -1,0 +1,1 @@
+Zamanı unix time çeviren basit bir uygulama kodun açıklamaları aynı zamanda notlarım.
