@@ -1,22 +1,23 @@
 {
-  "name": "iamgesearch",
+  "name": "check-size",
   "version": "0.0.1",
-  "description": "image search",
+  "description": "check-file-size",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.16.2",
+    "express-fileupload": "^0.3.0",
     "express-handlebars": "^3.0.0",
     "mongodb": "^3.0.1",
     "request": "^2.83.0"
   },
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/turfanda/rccsizechecker.git"
+  },
   "engines": {
     "node": "8.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/turfanda/fccimagesearch.git"
   }
 }

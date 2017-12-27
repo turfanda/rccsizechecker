@@ -1,8 +1,9 @@
 
   <body>
-      <h1>İmage Search Engine</h1>
-    <h2>insert image search keywords as below(for space please use %20). To set result per page please define offset value.</h2>
-       <p>https://freeccimagesearch.glitch.me/api/imagesearch/funny%20cat?offset=5</p>
-    <h2>To get lates search keywords use api below </h2>
-      <p>https://freeccimagesearch.glitch.me/api/latest/imagesearch</p>
+      <h1>File Size Checker</h1>
+    <h2>Select file to check size</h2>
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Submit">
+      </form>
   </body>
