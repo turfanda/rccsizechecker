@@ -1,7 +1,7 @@
 {
-  "name": "time-micro-service",
+  "name": "iamgesearch",
   "version": "0.0.1",
-  "description": "time-check",
+  "description": "image search",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -9,16 +9,14 @@
   "dependencies": {
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
-    "express-useragent": "^1.0.8",
-    "moment": "^2.20.1",
     "mongodb": "^3.0.1",
-    "assert": "^1.4.1"
+    "request": "^2.83.0"
   },
   "engines": {
     "node": "8.x"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/turfanda/timemicroservice.git"
+    "url": "https://github.com/turfanda/fccimagesearch.git"
   }
 }
